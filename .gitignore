@@ -1,0 +1,10 @@
+Redis_clone
+Redis_clone.exe
+
+# Object files
+*.o
+
+# Editor/OS junk
+.vscode/
+*.swp
+.DS_Store
