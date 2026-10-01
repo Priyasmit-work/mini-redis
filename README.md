@@ -86,11 +86,11 @@ structure up front.
 - [x] **Stage 0** — sockets & TCP basics (concepts)
 - [x] **Stage 1** — TCP connection lifecycle (`socket`/`bind`/`listen`/`accept`)
 - [x] **Stage 1b** — `read()`/`write()` on the accepted connection; loop to accept multiple clients sequentially
-- [ ] **Stage 2** — parse the RESP protocol (Redis's wire format)
-- [ ] **Stage 3** — command dispatch (`PING`, `GET`, `SET`, `DEL`) backed by a hash table
-- [ ] **Stage 4** — event loop with `epoll` for handling many clients on one thread, non-blocking I/O
-- [ ] **Stage 5** — key expiry (`EXPIRE`/TTL), additional data types (e.g. lists)
-- [ ] **Stage 6** — validate against a real client (`redis-cli`)
+- [x] **Stage 2** — parse the RESP protocol (Redis's wire format)
+- [x] **Stage 3** — command dispatch (`PING`, `GET`, `SET`, `DEL`) backed by a hash table
+- [x] **Stage 4** — event loop with `epoll` for handling many clients on one thread, non-blocking I/O
+- [x] **Stage 5** — key expiry (`EXPIRE`/TTL), additional data types (e.g. lists)
+- [x] **Stage 6** — validate against a real client (`redis-cli`)
 
 ## Known Issues / Notes
 
